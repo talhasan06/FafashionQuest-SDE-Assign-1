@@ -1,0 +1,34 @@
+.navbar-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.carousel {
+    background-image: url('resources/carousel-bg.png');
+    background-size: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1) grayscale(100%) brightness(200%) sepia(100%) saturate(500%) hue-rotate(170deg);
+}
+.ipad-section{
+    height: 600px;
+}
+.ipad-img{
+    height: 200px;
+    width: 400px;
+}
+
+.first-li {
+    /* styles for first li */
+    border-bottom: 4px solid #929a94; 
+}
+.card{
+    margin-right: 10px;
+    background-color:#F6F6F6;
+}
+.icons img{
+    width:16px;
+    filter: brightness(0) invert(1);
+}
